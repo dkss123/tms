@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: url('/images/login-bg.jpg') no-repeat center;
+    background-size: auto;
+}
+
+#login-box
+{
+background-color: rgb(28 106 132 / 38%);
+height: 385px;
+width: 500px;
+/* height: 50vh;
+width: 50vw; */
+position: absolute;
+right: 150px;
+top: 50px;
+border-radius: 20px;
+}
+
+.h-login
+{
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    background-color: #eba4943b;
+    font-size: 2.5rem;
+    font-family: 'Patua One', cursive;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 60%;
+}
+
+#merchant
+{
+    margin: 50px auto;
+}
+
+#merchant-input
+{
+    /* display: flex;
+    flex-direction: column; */
+    color: white;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Crete Round', serif;
+}
+
+#email
+{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    width: 65%;
+}
+
+#password
+{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    width: 55%;
+}
+
+#btnSubmit
+{
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: beige;
+    font-weight: bold;
+}

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Secular+One&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Secular+One&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Secular+One&family=Viga&display=swap');
+
+:root
+{
+    --font1: 'Kanit', sans-serif;
+    --font2: 'Patua One', cursive;
+    --font3: 'Acme', sans-serif;
+    --font4: 'Viga', sans-serif;
+    --font5: 'Secular One', sans-serif;
+    --font6: 'Fredoka One', cursive;
+}
+
+.font1
+{
+    font-family: var(--font1);
+}
+
+.font2
+{
+font-family: var(--font2);
+}
+
+.font3
+{
+font-family: var(--font3);
+}
+
+.font4
+{
+font-family: var(--font4);
+}
+
+.font5
+{
+font-family: var(--font5);
+}
+
+.font6
+{
+font-family: var(--font6);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    /* background: url('/images/background.jpg') no-repeat center center;
+    background-size: cover; */
+}
+
+body::before
+{
+    content: "";
+    /* background: url('/images/background.jpg') no-repeat center center; */
+    /* background: url('/images/background4.jpg') no-repeat center center; */
+    filter: blur(3px);
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+
+}
+#head
+{
+    background-color: rgb(89 86 74 / 14%);
+    border-radius: 0px 0px 150px 150px;
+    /* height: 150px; */
+    display: flex;
+    position: relative;
+    top: 0;
+    justify-content: center;
+}
+
+#head::before
+{
+    content: "";
+    /* background-color: rgb(209, 207, 207); */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .5;
+
+}
+
+#logo
+{
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+    margin: 20px 25px;
+    position: absolute;
+    left: 200px;
+    float: left;
+}
+
+#nav
+{
+    display: flex;
+    margin: 30px;
+}
+
+#nav li
+{
+    margin: 18px 10px;
+    font-size: 1.6rem;
+    font-family: 'Balsamiq Sans', cursive;
+    list-style: none;
+    /* background-color: rgb(118, 232, 247); */
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+
+#nav li a
+{
+    color: black;
+    text-decoration: none;
+}
+
+#nav li a:hover
+{
+    color: rgba(128, 111, 111, 0.993);
+    font-weight: 100;
+}
+
+.logsign
+{
+    display: flex;
+    position: absolute;
+    right: 180px;
+    top: 30px;
+}
+
+.logsign li
+{
+    margin: 18px 10px;
+    font-size: 1.6rem;
+    list-style: none;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.logsign li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.logsign li a:hover
+{
+    color: rgba(128, 111, 111, 0.993);
+    font-weight: 100;
+}
+
+/* MAIN BODY SECTION */
+
+.container
+{
+    background-color: rgb(145 152 153 / 19%);
+    /* height: 400px; */
+    width: 80vw;
+    margin: 40px auto 40px auto;
+    border-radius: 20px;
+    display: flex;
+    border: 5px solid black;
+}
+
+.tms-intro
+{
+    margin: 40px;
+}
+
+.tms-welcome
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tms-heading
+{
+    font-family: var(--font1);
+    margin-bottom: 10px;
+    font-size: 2.8rem;
+}
+
+.tms-heading-2
+{
+    font-size: 2rem;
+    font-family: var(--font1);
+}
+
+.tms-para
+{
+    font-size: 1.3rem;
+}
+
+.inside-tms-para
+{
+    font-size: 20px;
+}
+
+.user-list
+{
+    margin-left: 20px;
+}
+.tms-img img
+{
+    height: 250px;
+    width: 250px;
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#footer
+{
+    background-color: rgb(47, 49, 49);
+    border-radius: 150px 150px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 90vw;
+    margin: auto;
+    color: aliceblue;
+}

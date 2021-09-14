@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: url('/images/login-bg.jpg') no-repeat center;
+    background-size: auto;
+}
+
+#login-box
+{
+background-color: rgb(28 106 132 / 38%);
+height: 550px;
+width: 500px;
+/* height: 50vh;
+width: 50vw; */
+position: absolute;
+right: 150px;
+top: 50px;
+border-radius: 20px;
+}
+
+.h-login
+{
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    background-color: #eba4943b;
+    font-size: 2rem;
+    font-family: 'Patua One', cursive;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 40%;
+}
+
+#logins
+{
+    margin-top: 80px;
+}
+#logins a
+{
+    text-decoration: none;
+    font-family: 'Crete Round', serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+#logins a h3
+{
+    margin: 40px 50px 0px 50px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    background-color: #44cbff52;
+    /* height: 10vh;
+    width: 20vw; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#logins a h3:hover
+{
+background-color: rgba(226, 192, 148, 0.486);
+}
+
+#logins h4
+{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+#logins h4 a
+{
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+#logins h4 a:hover
+{
+    color: rgb(224, 126, 224);
+}
