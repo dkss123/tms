@@ -1,0 +1,63 @@
+@media (min-width: 520px) and (max-width: 770px)
+{
+
+    #login-box
+    {
+        position: static;
+        margin: 50px auto;
+        height: 500px;
+        background-color: rgb(132 95 28 / 68%);
+    }
+
+    .h-login
+    {
+        background-color: aliceblue;
+        color: black;
+    }
+
+    #logins
+    {
+        margin-top: 50px;
+    }
+    #logins a h3
+    {
+        background-color: aliceblue;
+        color: #0d39daf2;
+    }
+}
+
+@media (max-width: 519px)
+{
+    #login-box
+    {
+        width: auto;
+        background-color: rgb(132 95 28 / 68%);
+        height: auto;
+        position: static;
+        margin: 20px;
+    }
+
+    .h-login
+    {
+        background-color: aliceblue;
+        color: black;
+        font-size: 25px;
+    }
+
+    #logins
+    {
+        margin-top: 40px;
+    }
+    #logins a h3
+    {
+        background-color: aliceblue;
+        color: #0d39daf2;
+        font-size: 25px;
+        margin: 25px 25px;
+    }
+
+    #logins h4 a
+    {
+        font-size: 20px;
+    }
+}

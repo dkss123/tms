@@ -6,7 +6,7 @@
 
 body
 {
-    background: url('/images/login-bg.jpg') no-repeat center;
+    background: url('../images/login-bg.jpg') no-repeat center;
     background-size: auto;
 }
 

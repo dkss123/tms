@@ -1,0 +1,34 @@
+@media (max-width: 850px)
+{
+    #signup-box
+    {
+        position: static;
+        margin: auto 50px;
+        background-color: rgb(103 79 64 / 39%);
+        height: auto;
+        width: auto;
+    }
+
+    .h-signup
+    {
+        background-color: #ccb512;
+    }
+
+    #signup
+    {
+        margin-top: 50px;
+    }
+
+    #signup a h3
+    {
+        margin: 35px;
+        background-color: azure;
+        color: #4848df;
+        font-size: 30px;
+    }
+
+    #signup h4
+    {
+        margin-top: 35px;
+    }
+}

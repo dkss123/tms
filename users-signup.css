@@ -1,0 +1,47 @@
+@media (max-width: 960px)
+{
+    #signup-box
+    {
+        background-color: rgb(103 79 64 / 39%);
+        position: static;
+        height: auto;
+        width: auto;
+        margin: auto 50px;
+    }
+
+    .h-signup
+    {
+        font-size: 1.5rem;
+    }
+    #form
+    {
+        margin: 25px;
+    }
+
+    #fname
+    {
+        margin: auto 10px;
+        width: auto;
+    }
+   
+    #sname
+    {
+        margin: auto 10px;
+    }
+
+    #email
+    {
+        margin: auto 10px;
+    }
+
+    #password
+    {
+        margin: auto 10px;
+    }
+
+    #btnSubmit
+    {
+        margin: 5px auto;
+        width: auto;
+    }
+}

@@ -1,0 +1,25 @@
+/* ADMIN LOGIN PHONE CSS */
+
+@media (max-width: 720px)
+{
+    #login-box
+    {
+        width: auto;
+        background-color: rgb(132 95 28 / 68%);
+        height: auto;
+        position: static;
+        margin: 20px;
+    }
+
+    .h-login
+    {
+        background-color: aliceblue;
+        color: black;
+        font-size: 30px;
+    }
+
+    #admin
+    {
+        margin: 30px auto;
+    }
+}
