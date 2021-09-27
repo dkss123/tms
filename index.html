@@ -5,36 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/index-phone.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="index-phone.css">
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <title>Transportation Management System</title>
 </head>
 
 <body>
     <!-- HEADER SECTION -->
-    <header id="head">
-        <a href="index.html"><img src="images/logo3.png" alt="" id="logo"></a>
-        <nav id="navbar" class="active">
-            <ul id="nav">
-                <!-- <li class="items"><a href="#home">Home</a></li>
-                <li class="items"><a href="#services">Services</a></li>
-                <li class="items"><a href="#team">Team</a></li>
-                <li class="items"><a href="#contact">Contact Us</a></li> -->
 
-                <a href="#home" class="items"><li>Home</li></a>
-                <a href="#services" class="items"><li>Services</li></a>
-                <a href="#team" class="items"><li>Team</li></a>
-                <a href="#contact" class="items"><li>Contact Us</li></a>
+    <header id="home">
+
+        <nav class="navigation">
+
+            <!-- Logo -->
+            <div class="logo">
+                <img src="logo3.png" alt="" />
+            </div>
+            
+            <!-- Navigation -->
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu-list">
+                <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+                <li><a href="#team" onclick="toggleMenu();">Team</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
             </ul>
-            <ul class="logsign">
-                <a href="login.html"><li>Log In</li></a>
-                <a href="signup.html"><li>Sign Up</li></a>
-            </ul>
+
+        <!--
+            <div class="humbarger">
+                <div class="bar"></div>
+                <div class="bar2 bar"></div>
+                <div class="bar"></div>
+            </div>
+        -->
+
         </nav>
-        <img src="images/hamburger.png" alt="" id="hamburger-img">
-        <div class="toggle active"></div>
+
     </header>
+    
 
     <!-- <div class="hr" style="margin: auto; width: 80vw;">
         <hr>
@@ -208,6 +218,16 @@
         </div>
     </footer>
 </body>
+<script src="script.js"></script>
+<script>
+        
 
-<script src="js/index.js"></script>
+    function toggleMenu() {
+        var menuToggle = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu-list');
+        menuToggle.classList.toggle('active');
+        menu.classList.toggle('active');
+    }
+</script>
+<script src="index.js"></script>
 </html>
